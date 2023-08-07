@@ -13,14 +13,14 @@ button,
 a {
   cursor: pointer;
 }
-nav {
+header {
   height: 74px;
   display: flex;
   justify-content: space-between;
   padding: 0 40px;
   align-items: center;
 }
-nav img {
+header img {
   width: 65px;
 }
 .hero {
@@ -28,7 +28,7 @@ nav img {
   background-image: url(images/hero.jpeg);
   background-size: cover;
 }
-nav button {
+header button {
   color: rgb(168, 175, 189);
   background-color: transparent;
   padding: 10px 16px;
@@ -39,7 +39,7 @@ nav button {
   transition: background-color 0.15s, color 0.15s;
   cursor: pointer;
 }
-nav button:hover {
+header button:hover {
   background-color: rgb(66, 73, 87);
   color: rgb(255, 255, 255);
 }
